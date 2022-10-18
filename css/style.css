@@ -1,0 +1,22 @@
+body{
+ /*  background-color: orange; */
+
+}
+
+/* to replace boootstrap backgrounds in nav and footer */
+.bg-orange{
+  background-color: orangered;
+}
+
+#bannerImage{
+  margin: none;
+}
+
+#countdown{
+  text-align: center;
+  font-family: "Henny Penny";
+  font-size: large;
+  background-color: orangered;
+  margin-top: 20px;
+}
+
