@@ -2,6 +2,37 @@ body{
  /*  background-color: orange; */
 
 }
+a:link {
+  color: red;
+}
+a:visited{
+  color: red;
+}
+.container{  
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+#pageText{
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+#imageBlock
+{
+  position: relative;
+  text-align: center;
+}
+#methodImage{
+padding-right: 25px;
+align-content: top;
+}
+#methodText{
+font-size: 20px;
+}
+
 
 /* to replace boootstrap backgrounds in nav and footer */
 .bg-orange{
@@ -15,13 +46,25 @@ body{
 #countdown{
   text-align: center;
   font-family: "Henny Penny";
-  font-size: large;
+  font-size: 30px;
   background-color: orangered;
-  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#halloweenText{
+  text-align: center;
+}
+footer{
+  height: 220px;
+  background-color: orangered;
+  color:black;
+  text-align: center;
+  padding: 20px;
 }
 
 /* Style all font awesome icons */
 .fa {
+  margin-top: 20px;
   padding: 20px;
   font-size: 30px;
   width: 50px;
