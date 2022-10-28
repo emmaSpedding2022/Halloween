@@ -12,5 +12,5 @@ if (distance < 0) {
   clearInterval(x);
   document.getElementById("countdown").innerHTML = "You Missed Halloween this year";
 }
-});
+100000});
 console.log(emma);
